@@ -1,0 +1,6 @@
+{
+        "KEYCLOAK_SERVER_URL": "http://localhost:8080/",
+        "KEYCLOAK_REALM": "your-realm",
+        "KEYCLOAK_CLIENT_ID": "your-client",
+        "KEYCLOAK_CLIENT_SECRET": "qlUECRMDDs56xe4RvC3nxPId8iYH3hpS"
+}
