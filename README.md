@@ -21,7 +21,7 @@ pip install python-keycloak
 
 ```json
 {
-    "KEYCLOAK_SERVER_URL": "https://your-keycloak-server/auth/",
+    "KEYCLOAK_SERVER_URL": "https://your-keycloak-server/",
     "KEYCLOAK_REALM": "your-realm",
     "KEYCLOAK_CLIENT_ID": "your-client-id",
     "KEYCLOAK_CLIENT_SECRET": "your-client-secret"
