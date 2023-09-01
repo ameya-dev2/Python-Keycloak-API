@@ -124,7 +124,8 @@ docker exec -it ContainerID /bin/bash/
 ```
 2. Update the realm's SSL requirements (replace http://localhost:8080/ with your Keycloak server URL):
 
-```./kcadm.sh update realms/master -s sslRequired=NONE --server http://localhost:8080/ --realm master --user admin
+```
+./kcadm.sh update realms/master -s sslRequired=NONE --server http://localhost:8080/ --realm master --user admin
 ```
 ## Custom Themes of Keycloak
 
