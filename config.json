@@ -1,6 +1,6 @@
 {
-        "KEYCLOAK_SERVER_URL": "http://localhost:8080/",
-        "KEYCLOAK_REALM": "your-realm",
-        "KEYCLOAK_CLIENT_ID": "your-client",
-        "KEYCLOAK_CLIENT_SECRET": "qlUECRMDDs56xe4RvC3nxPId8iYH3hpS"
+        "KEYCLOAK_SERVER_URL": "http://52.34.96.47:8080/",
+        "KEYCLOAK_REALM": "evcrm-users",
+        "KEYCLOAK_CLIENT_ID": "evcrm-users",
+        "KEYCLOAK_CLIENT_SECRET": "Khn3Ey7Do0OaSYYrgl2dAnjS9wTcCac5"
 }

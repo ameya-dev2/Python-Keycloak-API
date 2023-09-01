@@ -67,6 +67,6 @@ print(keycloak_admin.get_user(user_id=id))
 # To assign or create a role in keycloak we use the RoleRepresentation of the Keycloak....
 # RoleRepresenataion consists of all the roles with their detals in a json format
 
-role = keycloak_admin.get_realm_role('user') # Need to have the Realm-management permission
+role = keycloak_admin.get_realm_role('user') #  'manage-realm' needed, Need to have the Realm-management permission
 
 keycloak_admin.assign_realm_roles(user_id=id, roles=role)  # adding roles to the user
