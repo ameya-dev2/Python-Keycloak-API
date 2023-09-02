@@ -1,6 +1,7 @@
 # Python-Keycloak-API
 An API implementation of Keycloak without using the UI of the Keycloak admin directly using the Python client for Keycloak
 
+
 # Keycloak Integration with Python
 
 This repository contains Python code for interacting with Keycloak, including user management and role assignment. The code uses the `keycloak` library to connect to a Keycloak server, create users, update user details, and assign roles to users.
