@@ -115,9 +115,9 @@ keycloak_admin.assign_realm_roles(user_id=user_id, roles=role)
 ```verification_action = keycloak_admin.get_required_action_by_alias('VERIFY_EMAIL') 
     # This uses a required actions method which is called with alias by it's name.
 ```
-# Disable SSH in Docker 
+# Disable SSL in Docker 
 
-## To disable SSH in docker container 
+## To disable SSL in docker container 
 1. Access the keycloak shell and then:
 ```
 docker exec -it ContainerID /bin/bash/
